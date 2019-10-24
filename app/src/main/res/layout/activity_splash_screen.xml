@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_label"
+    tools:context=".ui.animation.SplashScreenActivity">
+
+
+    <TextView
+        android:id="@+id/headline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:textSize="56sp"
+        android:textColor="#fff"
+        android:fontFamily="@font/black_ops_one"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:text="Game Rules"/>
+
+    <TextView
+        android:id="@+id/rule_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rule 1: Just use 1 finger"
+        android:textColor="#fff"
+        android:textSize="32sp"
+        android:fontFamily="@font/black_ops_one"
+        android:layout_below="@+id/headline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/rule_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rule 2: Be a champion"
+        android:textColor="#fff"
+        android:textSize="32sp"
+        android:fontFamily="@font/black_ops_one"
+        android:layout_below="@+id/rule_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/rule_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rule 3: Have fun"
+        android:textColor="#fff"
+        android:textSize="32sp"
+        android:fontFamily="@font/black_ops_one"
+        android:layout_below="@+id/rule_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

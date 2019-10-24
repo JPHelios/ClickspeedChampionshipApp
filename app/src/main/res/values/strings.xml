@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ClickspeedChampionship</string>
+
+    <string-array name="gameModes">
+        <item>Click-based Game</item>
+        <item>Time-based Game</item>
+    </string-array>
+
+</resources>
